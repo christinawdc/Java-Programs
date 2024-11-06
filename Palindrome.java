@@ -7,9 +7,10 @@ public class Palindrome {
 		System.out.println("Enter the word:");
 		String s= sc.nextLine();
 		s= s.toLowerCase();
-		for (int i=0;i<(s.length()-1)/2;i++) {
+		for (int i=0;i<s.length()/2;i++) {
 			if (s.charAt(i)!=s.charAt(s.length()-1-i)){
 				flag=1;
+				break;
 			}
 		}
 		if (flag==1) {
