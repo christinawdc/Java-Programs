@@ -1,18 +1,19 @@
+package revision;
 import java.util.Scanner;
 public class fibonacci {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		int f1=0,f2=1,f3;
-		System.out.println("Enter the limit:");
+		System.out.println("Enter how many terms of fibonacci sequence to display:");
 		int n= sc.nextInt();
-		if (n==0) {
+		if (n==1) {
 			System.out.println(f1);
 		}
-		else if (n==1) {
+		else if (n==2) {
 			System.out.println(f1+"\n"+f2);
 		}
-		else if (n>1) {
+		else if (n>2) {
 			System.out.println(f1+"\n"+f2);
 		
 		for (int i=0;i<n;i++) {
