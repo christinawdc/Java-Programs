@@ -1,3 +1,4 @@
+//Java program which creates a class named "Employee" having the following members: Name, Age, Phone Number, Address, Salary. It also has a methond named 'PrintSalary()' which prints the salary of the employee. Two classes 'Officer' and 'Manager' classes have data members 'Specialisation' and 'Department' respectively. Now assign name, age, phone number, address and salary to an officer and manager by making an object of both of these classes and print the same.
 package Java-Programs;
 import java.util.Scanner;
 class Employee{
